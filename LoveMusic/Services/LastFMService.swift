@@ -7,7 +7,7 @@
 import Foundation
 
 class LastFMService {
-    private let apiKey = "12fa71bb05c02475e810ad000fe97441"
+    private let apiKey = "tu api key"
     private let baseURL = "https://ws.audioscrobbler.com/2.0/"
 
     func getTopArtists(completion: @escaping ([Artist]) -> Void) {
