@@ -8,7 +8,7 @@
 import Foundation
 
 class GeniusService {
-    private let accessToken = "5rVuzoG2NcVFpj1O4oYG_PWfd0hw60H1W8Z3OA-g1CWjMr_zVr_2UJYSAOxZqFq9"
+    private let accessToken = "tu api token"
 
     func searchLyricsURL(artist: String, song: String, completion: @escaping (String?) -> Void) {
         let query = "\(artist) \(song)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
