@@ -8,7 +8,7 @@
 import Foundation
 
 class SpotifyService {
-    private let accessToken = "f0c31eb5d058446493ee37f677a61b03"
+    private let accessToken = "tu api key"
 
     func searchTrack(artist: String, track: String, completion: @escaping (String?) -> Void) {
         let query = "\(artist) \(track)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
